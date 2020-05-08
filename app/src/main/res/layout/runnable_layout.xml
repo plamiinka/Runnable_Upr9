@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".RunnableTask">
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/enter_your_email"
+        android:background="@android:drawable/editbox_background"
+        android:autofillHints="email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/editEmail"
+        android:hint="@string/enter_your_password"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textPassword"
+        android:autofillHints="password" />
+
+    <Button
+        android:id="@+id/buttonGO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/go"
+        android:layout_below="@+id/editPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGO"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+    android:id="@+id/buttonSTART"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="@string/start_counting_seconds"
+    android:layout_below="@+id/textViewResult"
+    android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pause"
+        android:layout_below="@+id/buttonSTART"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

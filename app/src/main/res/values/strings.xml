@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Runnable_Upr9</string>
+    <string name="run">Run</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="start">START</string>
+    <string name="go">GO</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="pause">PAUSE</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="runnable">Runnable</string>
+    <string name="start_counting_seconds">START COUNTING SECONDS</string>
+    <string name="third_task">Third Task</string>
+</resources>
